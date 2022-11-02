@@ -19,14 +19,14 @@ require './app/001_two_sum.rb'
 # algorithm A of two sum:   318859.7 i/s - 1.08x  (± 0.00) slower
 
 def algorithm_a
-  x = Class.new { extend AlgorithmTwoSum }
+  x = Class.new { extend ExamTwoSum }
   x.two_sum_a([2, 7, 11, 15], 9)
   x.two_sum_a([3, 2, 4], 6)
   x.two_sum_a([3, 3], 6)
 end
 
 def algorithm_b
- x = Class.new { extend AlgorithmTwoSum }
+ x = Class.new { extend ExamTwoSum }
  x.two_sum_b([2, 7, 11, 15], 9)
  x.two_sum_b([3, 2, 4], 6)
  x.two_sum_b([3, 3], 6)

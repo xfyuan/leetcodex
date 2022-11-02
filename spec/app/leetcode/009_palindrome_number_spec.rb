@@ -1,5 +1,5 @@
 RSpec.describe 'PalindromeNumber' do
-  let(:x) { Class.new { extend AlgorithmPalindromeNumber } }
+  let(:x) { Class.new { extend ExamPalindromeNumber } }
 
   context 'algorithm of palindrome number' do
     it 'with test case 01' do

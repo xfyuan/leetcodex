@@ -19,14 +19,14 @@ require './app/009_palindrome_number.rb'
 # algorithm B of palindrome number:   496767.9 i/s - 1.06x  (± 0.00) slower
 
 def algorithm_a
-  x = Class.new { extend AlgorithmPalindromeNumber }
+  x = Class.new { extend ExamPalindromeNumber }
   x.is_palindrome_a(121)
   x.is_palindrome_a(-121)
   x.is_palindrome_a(10)
 end
 
 def algorithm_b
-  x = Class.new { extend AlgorithmPalindromeNumber }
+  x = Class.new { extend ExamPalindromeNumber }
   x.is_palindrome_b(121)
   x.is_palindrome_b(-121)
   x.is_palindrome_b(10)

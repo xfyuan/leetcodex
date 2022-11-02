@@ -1,5 +1,5 @@
 RSpec.describe 'TwoSum' do
-  let(:x) { Class.new { extend AlgorithmTwoSum } }
+  let(:x) { Class.new { extend ExamTwoSum } }
 
   context 'algorithm of two sum' do
     it 'with test case 01' do

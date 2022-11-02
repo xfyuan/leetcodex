@@ -31,7 +31,7 @@ Bundler.require
 #
 # 进阶：你能不将整数转为字符串来解决这个问题吗？
 
-module AlgorithmPalindromeNumber
+module ExamPalindromeNumber
   # @param {Integer} x
   # @return {Boolean}
   def is_palindrome_a(x)
