@@ -8,7 +8,7 @@ module ResursionSortings
     return nums if nums.size < 2
 
     i = (nums.size / 2).floor
-    left = merge_sorting(nums[0..i-1])
+    left = merge_sorting(nums[0..i - 1])
     right = merge_sorting(nums[i..nums.size])
     merge(left, right)
   end

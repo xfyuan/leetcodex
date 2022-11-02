@@ -14,8 +14,8 @@ module RegularSortings
     while swap
       swap = false
       (nums.size - 1).times do |i|
-        if nums[i] > nums[i+1]
-          nums[i], nums[i+1] = nums[i+1], nums[i]
+        if nums[i] > nums[i + 1]
+          nums[i], nums[i + 1] = nums[i + 1], nums[i]
           swap = true
         end
       end
@@ -35,7 +35,7 @@ module RegularSortings
     n.times do |i|
       min_idx = i
       # for 循环找到 i 之后的最小元素
-      for j in (i+1)..n do
+      for j in (i + 1)..n do
         min_idx = j if nums[j] < nums[min_idx]
       end
       if min_idx != i
@@ -54,7 +54,7 @@ module RegularSortings
     return nums if nums.size < 2
 
     (nums.size).times do |i|
-    # 把第一个元素认为是已排好序的
+      # 把第一个元素认为是已排好序的
       next if i == 0
 
       # 对前 i 个元素从后向前扫描，找到相应位置并插入。

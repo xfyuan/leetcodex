@@ -52,10 +52,10 @@ def quick_sorting
 end
 
 Benchmark.ips do |x|
-  x.report("bubble sorting")   { bubble_sorting }
-  x.report("selection sorting"){ selection_sorting }
-  x.report("insertion sorting"){ insertion_sorting }
-  x.report("merge sorting")    { merge_sorting }
-  x.report("quick sorting")    { quick_sorting }
+  x.report("bubble sorting")    { bubble_sorting }
+  x.report("selection sorting") { selection_sorting }
+  x.report("insertion sorting") { insertion_sorting }
+  x.report("merge sorting")     { merge_sorting }
+  x.report("quick sorting")     { quick_sorting }
   x.compare!
 end
