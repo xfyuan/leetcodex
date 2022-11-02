@@ -1,7 +1,7 @@
 require 'bundler/setup'
 Bundler.require
 
-require './app/009_palindrome_number.rb'
+require './app/leetcode/009_palindrome_number.rb'
 
 # Warming up --------------------------------------
 # algorithm A of palindrome number

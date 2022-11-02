@@ -1,7 +1,7 @@
 require 'bundler/setup'
 Bundler.require
 
-require './app/001_two_sum.rb'
+require './app/leetcode/001_two_sum.rb'
 
 # Warming up --------------------------------------
 # algorithm A of two sum
